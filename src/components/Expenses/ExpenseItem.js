@@ -7,9 +7,10 @@ function ExpenseItem(expense) {
 let expenseCurr = 'Rs.';
 const [title, setTitle] = useState(expense.title);	
 
-const clickHandler = () =>
+const clickHandler = async () =>
 {
-setTitle(title);	
+	await setTitle(title +" !");
+	console.log(title);
 }
 	return (
 		<Card className="expense-item">

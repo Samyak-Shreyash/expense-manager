@@ -1,4 +1,3 @@
-import NewExpense from './components/NewExpense/NewExpense';
 import Expenses from './components/Expenses/Expenses';
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
 			id: 'i1',
 			title: 'Petrol',
 			amount: '3210',
-			date: new Date(2021, 43, 6)
+			date: new Date(2021, 9, 6)
 		},
 		{
 			id: 'i2',
@@ -31,7 +30,7 @@ function App() {
 
 	return (
 		<div>
-			<NewExpense />
+			<h2>Let's get Started</h2>
 			<Expenses items={expenses} />
       </div>
 	);
