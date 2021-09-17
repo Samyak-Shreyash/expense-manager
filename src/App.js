@@ -12,7 +12,7 @@ const expenseArr = [
 		id: '312',
 		title: 'Zomato',
 		amount: '310',
-		date: '2021-08-26'
+		date: '2020-08-26'
 	},
 	{
 		id: '364',
