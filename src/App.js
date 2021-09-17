@@ -1,39 +1,37 @@
-import { Temporal } from 'proposal-temporal';
-
 import Expenses from './components/Expenses/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
 
 function App() {
 	const expenses = [
 		{
-			id: 'i1',
+			id: '213',
 			title: 'Petrol',
 			amount: '3210',
-			date: new Temporal.PlainDate(2021, 9, 6)
+			date: '2021-09-06'
 		},
 		{
-			id: 'i2',
+			id: '312',
 			title: 'Zomato',
 			amount: '310',
-			date: new Temporal.PlainDate(2021, 8, 26)
+			date: '2021-08-26'
 		},
 		{
-			id: 'i3',
+			id: '364',
 			title: 'Wifi',
 			amount: '800',
-			date: new Temporal.PlainDate(2021, 9, 1)
+			date: '2021-09-01'
 		},
 		{
-			id: 'i4',
+			id: '314',
 			title: 'Flight',
 			amount: '9820',
-			date: new Temporal.PlainDate(2021, 8, 16)
+			date: '2021-08-16'
 		},
 	];
 
 	const addExpenseHandler = expense => {
 		console.log('In App.js ');
-		expenses.append(expense)
+		expenses.push(expense)
 		console.log(expenses);
 	};
 	

@@ -1,9 +1,11 @@
+import { Temporal } from "proposal-temporal";
 import "./ExpenseDate.css"
 function ExpenseDate(props)
 {
-    const day = props.date.toLocaleString('en-US',  { day: 'numeric'}); 
-    const month = props.date.toLocaleString('en-US',  { month: 'long'});
-    const year = props.date.toLocaleString('en-US',  { year: 'numeric'});
+    const date = new Temporal.PlainDate.from(props.date)
+    const day = date.toLocaleString('en-US',  { day: 'numeric'}); 
+    const month = date.toLocaleString('en-US',  { month: 'long'});
+    const year = date.toLocaleString('en-US',  { year: 'numeric'});
 
     return (
         <div className="expense-date">
