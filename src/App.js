@@ -5,7 +5,7 @@ const expenseArr = [
 	{
 		id: '213',
 		title: 'Petrol',
-		amount: '3210',
+		amount: '321',
 		date: '2021-09-06'
 	},
 	{
@@ -17,8 +17,8 @@ const expenseArr = [
 	{
 		id: '364',
 		title: 'Wifi',
-		amount: '800',
-		date: '2021-09-01'
+		amount: '980',
+		date: '2021-05-01'
 	},
 	{
 		id: '314',

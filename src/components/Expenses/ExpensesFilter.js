@@ -5,16 +5,15 @@ const ExpensesFilter = (props) => {
     const selectChangeHandler = event => {
         props.onChangeFilter(event.target.value)
     }
-
+   const genOptions = props.years.map(year => (
+        <option value ={year.toString()}>{year}</option>
+    ));
     return (
         <div className = "expenses-filter">
             <div className ="expenses-filter__control">
                 <label>Filter by Year</label>
                 <select value={props.selected} onChange = {selectChangeHandler}>
-                    <option value ='2022'>2022</option>
-                    <option value ='2021'>2021</option>
-                    <option value ='2020'>2020</option>
-                    <option value ='2019'>2019</option>
+                    {genOptions}
                 </select>
             </div>
         </div>
