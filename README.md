@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Description 
+
+This project was built while in process of learning React from [React - The Complete Guide (incl Hooks, React Router, Redux) ](https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/quiz/5187828#overview) by CodeAcademy
+
+Find my development time data from Wakatime [![wakatime](https://wakatime.com/badge/github/Samyak-Shreyash/expense-manager.svg)](https://wakatime.com/badge/github/Samyak-Shreyash/expense-manager) 
+
 ## Available Scripts
 
 In the project directory, you can run:
